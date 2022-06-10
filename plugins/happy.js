@@ -1,7 +1,6 @@
-let fetch = require("node-fetch")
-const { sticker } = require('../lib/sticker')
-const { MessageType } = require('@adiwajshing/baileys')
-
+import { sticker } from '../lib/sticker.js'
+import fetch from 'node-fetch'
+import MessageType from '@adiwajshing/baileys'
 let handler = async(m, { conn }) => {
   let res = await fetch(global.API('https://api.waifu.pics', '/sfw/happy'))
   let json = await res.json()
