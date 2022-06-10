@@ -8,7 +8,7 @@ let win = ''
 let tie = false
 if (m.sender == room.p2 && /^(acc(ept)?|acepto|okay|si|terima|gas|oke?|tolak|gamau|nanti|ga(k.)?bisa)/i.test(m.text) && m.isGroup && room.status == 'wait') {
 if (/^(tolak|no|rechazo|fuera|safa|gamau|nanti|ga(k.)?bisa)/i.test(m.text)) {
-this.reply(m.chat, `*[❗] @${room.p2.split`@`[0]} 𝚁𝙴𝙹𝙴𝙲𝚃 𝚃𝙷𝙴 𝙿𝚅𝙿, 𝚃𝙷𝙴 𝙿𝚅𝙿 𝙸𝚂 𝙲𝙰𝙽𝙲𝙴𝙻𝙴𝙳*', m)
+this.reply(m.chat, `*[❗] @${room.p2.split`@`[0]} 𝚁𝙴𝙹𝙴𝙲𝚃 𝚃𝙷𝙴 𝙿𝚅𝙿, 𝚃𝙷𝙴 𝙿𝚅𝙿 𝙸𝚂 𝙲𝙰𝙽𝙲𝙴𝙻𝙴𝙳*`, m)
 delete this.suit[room.id]
 return !0
 }
