@@ -8,5 +8,5 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /^(a|ª|A?$)/
+handler.command = /^(a|ª|A)$/
 export default handler
