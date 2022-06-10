@@ -1,7 +1,7 @@
 import axios from 'axios'
 let split = '|'
 let handler = async (m, { conn, args: [effect], text: txt, usedPrefix, command, name }) => {
-if (!effect) throw '*[❗𝐈𝐍𝐅𝐎❗] ¿𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳?*\n—◉ _#logo (effect) (text)_\n*𝙴𝚇𝙰𝙼𝙿𝙻𝙴:*\n—◉ _#logo 3d-deep-sea-metal SIRIUS_\n\n*[❗] 𝙲𝚄𝙰𝙽𝙳𝙾 𝙻𝙴𝚂 𝙳𝙸𝙶𝙰 𝚀𝚄𝙴 𝙷𝙰𝙲𝙴 𝙵𝙰𝙻𝚃𝙰 𝚄𝙽 𝚃𝙴𝚇𝚃𝙾 𝙴𝙻 𝚄𝚂𝙾 𝚂𝙴𝚁𝙸𝙰:*\n—◉ _#logo (effect) (text1|text2)_\n*𝙴𝚇𝙰𝙼𝙿𝙻𝙴:*\n—◉ _#logo Wolf-Logo-Galaxy NBL|SIRIUS_\n\n*<𝐋𝐈𝐒𝐓 𝐎𝐅 𝐄𝐅𝐅𝐄𝐂𝐓𝐒/>*\n\n° ඬ⃟📝 #logo ' + effects.map(v => v.title).join('\n° ඬ⃟📝 #logo ')
+if (!effect) throw '*[❗𝐈𝐍𝐅𝐎❗] ¿𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳?*\n—◉ _#logo (effect) (text)_\n*𝙴𝚇𝙰𝙼𝙿𝙻𝙴:*\n—◉ _#logo 3d-deep-sea-metal SIRIUS_\n\n*[❗] 𝚆𝙷𝙴𝙽 𝙸 𝚃𝙴𝙻𝙻 𝚃𝙷𝙴𝙼 𝚃𝙷𝙰𝚃 𝙰 𝚃𝙴𝚇𝚃 𝙸𝚂 𝙽𝙴𝙴𝙳𝙴𝙳, 𝚃𝙷𝙴 𝚄𝚂𝙴 𝚆𝙾𝚄𝙻𝙳 𝙱𝙴:*\n—◉ _#logo (effect) (text1|text2)_\n*𝙴𝚇𝙰𝙼𝙿𝙻𝙴:*\n—◉ _#logo Wolf-Logo-Galaxy NBL|SIRIUS_\n\n*<𝐋𝐈𝐒𝐓 𝐎𝐅 𝐄𝐅𝐅𝐄𝐂𝐓𝐒/>*\n\n° ඬ⃟📝 #logo ' + effects.map(v => v.title).join('\n° ඬ⃟📝 #logo ')
 effect = effect.toLowerCase()
 if (!effects.find(v => (new RegExp(v.title, 'gi')).test(effect))) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝚃𝙷𝙴 𝙴𝙵𝙵𝙴𝙲𝚃𝚂 ${effect} 𝙸𝚃 𝙸𝚂 𝙽𝙾𝚃 𝙸𝙽 𝚃𝙷𝙴 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙴𝙵𝙵𝙴𝙲𝚃𝚂*`
 let text = txt.replace(new RegExp(effect, 'gi'), '').trimStart()
