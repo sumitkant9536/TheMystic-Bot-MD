@@ -3,12 +3,12 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['50575008120', '🤖 Mystic - Bot 🤖', true],
-  ['17722386341']
+  ['919758523260', '👑 Mystic - Creador 👑', true],
+  ['919758523260', '🤖 Mystic - Bot 🤖', true],
+  ['918006025825']
 ] // Cambia los numero que quieras
 global.mods = [] 
-global.prems = [] 
+global.prems = ['919758523260'] 
 global.APIs = { // API Prefix
   // name: 'https://website'
   amel: 'https://melcanz.com',
@@ -65,7 +65,7 @@ global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
 
 global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
 global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
+global.wait = '*⌛ _Wait..._ ▬▬▬▭*'
 
 global.multiplier = 9999 // The higher, The harder levelup
 
