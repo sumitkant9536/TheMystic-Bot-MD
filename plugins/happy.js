@@ -14,4 +14,4 @@ handler.tags = ['sticker']
 handler.command = /^happy|stickerhappy|stikerhappy$/i
 handler.limit = true
 
-module.exports = handler 
+export default handler
