@@ -9,7 +9,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /^(:c|c)$/i
+handler.command = /^(cc)$/i
 handler.fail = null
 handler.exp = 100
 export default handler
