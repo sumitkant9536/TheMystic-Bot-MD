@@ -8,6 +8,5 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /ª|a|A/
 handler.command = /^(a|ª|A?$)/
 export default handler
