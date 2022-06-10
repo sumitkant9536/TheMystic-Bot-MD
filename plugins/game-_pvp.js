@@ -48,7 +48,7 @@ let jwb2 = m.sender == room.p2
 let g = /gunting/i
 let b = /batu/i
 let k = /kertas/i
-let reg = /^(scissor|stone|paper)/i
+let reg = /^(tijera|piedra|papel)/i
 if (jwb && reg.test(m.text) && !room.pilih && !m.isGroup) {
 room.pilih = reg.exec(m.text.toLowerCase())[0]
 room.text = m.text
