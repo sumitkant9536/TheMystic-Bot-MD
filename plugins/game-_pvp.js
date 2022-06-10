@@ -45,10 +45,10 @@ return !0
 }
 let jwb = m.sender == room.p
 let jwb2 = m.sender == room.p2
-let g = /gunting/i
-let b = /batu/i
-let k = /kertas/i
-let reg = /^(tijera|piedra|papel)/i
+    let g = /scissors/i
+    let b = /rock/i
+    let k = /paper/i
+    let reg = /^(scissors|rock|paper)/i
 if (jwb && reg.test(m.text) && !room.pilih && !m.isGroup) {
 room.pilih = reg.exec(m.text.toLowerCase())[0]
 room.text = m.text
