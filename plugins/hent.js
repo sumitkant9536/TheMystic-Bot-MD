@@ -1,5 +1,4 @@
 import fetch from 'node-fetch'
-
 let handler = async (m, { conn, usedPrefix, command }) => {
 	let res = await fetch(API('https://hmtai.herokuapp.com', '/nsfw/' + command, {}))
 	if (!res.ok) throw `${res.status} ${res.statusText}`
