@@ -9,20 +9,20 @@ setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado =`
 ╭─[ *𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭* ]
-│ *➤ 𝙷𝙾𝙻𝙰 ${name}*
+│ *➤ 𝙷𝙴𝙻𝙻𝙾 ${name}*
 │
-│ *ミ🤖 𝙴𝚂𝚃𝙰𝙳𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃 🤖彡*
-│ *=> 𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙾 ✅*
-│ *=> 𝙱𝙾𝚃 𝙳𝙴 𝚄𝚂𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾 ✅*
-│ *=> 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
+│ *ミ🤖 𝙱𝙾𝚃 𝚂𝚃𝙰𝚃𝚄𝚂 🤖彡*
+│ *=> 𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙴 ✅*
+│ *=> 𝙿𝚄𝙱𝙻𝙸𝙲 𝚄𝚂𝙴 𝙱𝙾𝚃 ✅*
+│ *=> 𝚆𝙴𝙰𝚃𝙷𝙴𝚁 𝙰𝙲𝚃𝙸𝚅𝙴: ${uptime}*
 ╰───────────────
 `.trim()
 
-conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/sumitkant9536/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)}
 
-handler.help = ['estado']
+handler.help = ['status']
 handler.tags = ['main']
 handler.command = /^(estado|status|estate|state|stado|stats)$/i
 export default handler
