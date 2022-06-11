@@ -34,7 +34,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['sticker (caption|reply media)', 'sticker <url>', 'stickergif (caption|reply media)', 'stickergif <url>']
 handler.tags = ['sticker']
-handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
+handler.command = /^sticker/i
 
 export default handler
 
