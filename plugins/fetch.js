@@ -1,5 +1,5 @@
-let fetch = require('node-fetch')
-let util = require('util')
+import fetch from 'node-fetch'
+import util from 'util'
 let handler = async(m, { text }) => {
   if (!/^https?:\/\//.test(text)) throw 'Prefix *URL* with http:// or https://'
   let _url = new URL(text)
