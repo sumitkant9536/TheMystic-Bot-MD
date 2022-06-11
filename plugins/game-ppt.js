@@ -3,22 +3,22 @@ let INTROJUEGO = `*𝙷𝙴𝙻𝙻𝙾 👋🏻, 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙿
 if (!text) throw INTROJUEGO
 var astro = Math.random()
 if (astro < 0.34) {
-astro = 'piedra' 
+astro = 'stone' 
 } else if (astro > 0.34 && astro < 0.67) {
-astro = 'tijera' 
+astro = 'scissor' 
 } else {
-astro = 'papel'
+astro = 'paper'
 }
 if (text == astro) {
 global.db.data.users[m.sender].exp += 500
-m.reply(`*🔰 Empate!*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Puntos +500 XP*`)
-} else if (text == 'papel') {
-if (astro == 'piedra') {
+m.reply(`*🔰 Tie!*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*🎁 points +500 XP*`)
+} else if (text == 'paper') {
+if (astro == 'stone') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Puntos +1000 XP*`)
+m.reply(`*🥳 You win! 🎉*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*🎁 points +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*❌ Puntos -300 XP*`)
+m.reply(`*☠️ You win! ❌*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*❌ points -300 XP*`)
 }
 } else if (text == 'tijera') {
 if (astro == 'papel') {
