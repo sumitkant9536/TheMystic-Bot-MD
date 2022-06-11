@@ -55,8 +55,8 @@ m.reply(`*☠️ You lose! ❌*\n\n*👉🏻 You: ${text}*\n*👉🏻 The bot: $
 } else {
 throw INTROJUEGO
 }}
-handler.help = ['ppt']
+handler.help = ['ppb']
 handler.tags = ['games']
-handler.command = /^(ppt)$/i
+handler.command = /^(ppb)$/i
 export default handler
 -
