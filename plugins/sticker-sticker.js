@@ -42,7 +42,7 @@ if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
 else throw '*[❗𝐈𝐍𝐅𝐎❗] 𝚂𝙾𝚁𝚁𝚈, 𝙰𝙽 𝙴𝚁𝚁𝙾𝚁 𝙾𝙲𝙲𝚄𝚁𝚁𝙴𝙳, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽. 𝙳𝙾 𝙽𝙾𝚃 𝙵𝙾𝚁𝙶𝙴𝚃 𝚃𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳 𝚃𝙾 𝙰 𝚅𝙸𝙳𝙴𝙾, 𝙸𝙼𝙰𝙶𝙴 𝙾𝚁 𝙸𝙽𝚂𝙴𝚁𝚃 𝚃𝙷𝙴 𝙻𝙸𝙽𝙺 𝙾𝙵 𝙰𝙽 𝙸𝙼𝙰𝙶𝙴 𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝚃𝙸𝙾𝙽.𝚓𝚙𝚐 𝚆𝙷𝙸𝙲𝙷 𝚆𝙸𝙻𝙻 𝙱𝙴 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝙳 𝙸𝙽𝚃𝙾 𝙰 𝚂𝚃𝙸𝙲𝙺𝙴𝚁*'
 
 }}
-handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
+handler.help = ['sticker (caption|reply media)', 'sticker <url>', 'stickergif (caption|reply media)', 'stickergif <url>']
 handler.tags = ['sticker']
 handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
 export default handler
