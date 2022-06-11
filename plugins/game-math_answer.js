@@ -17,7 +17,7 @@ if (--global.math[id][2] == 0) {
 conn.sendButton(m.chat, `*𝚈𝙾𝚄𝚁 𝙾𝙿𝙿𝙾𝚁𝚃𝚄𝙽𝙸𝚃𝙸𝙴𝚂 𝙰𝚁𝙴 𝙾𝚅𝙴𝚁*\n*𝚃𝙷𝙴 𝙰𝙽𝚂𝚆𝙴𝚁 𝙸𝚂: ${math.result}*`, author, null, [['𝚅𝙾𝙻𝚅𝙴𝚁 𝙰 𝙹𝚄𝙶𝙰𝚁', `/math ${math.mode}`]], m)
 clearTimeout(global.math[id][3])
 delete global.math[id]
-} else conn.reply(m.chat, `*𝚆𝚁𝙾𝙽𝙶 𝙰𝙽𝚂𝚆𝙴𝚁!!*\n*𝚂𝚃𝙸𝙻𝙻 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 ${global.math[id][2]} 𝚘𝚙𝚘𝚛𝚝𝚞𝚗𝚒𝚍𝚊𝚍𝚎𝚜*`, m)
+} else conn.reply(m.chat, `*𝚆𝚁𝙾𝙽𝙶 𝙰𝙽𝚂𝚆𝙴𝚁!!*\n*𝚂𝚃𝙸𝙻𝙻 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 ${global.math[id][2]} 𝚘𝚙portunities*`, m)
 }}}
 handler.customPrefix = /^-?[0-9]+(\.[0-9]+)?$/
 handler.command = new RegExp
