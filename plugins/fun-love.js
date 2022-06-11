@@ -1,8 +1,8 @@
 let handler = async (m, { conn, command, text }) => {
 conn.reply(m.chat, `
-*❤️❤️ MEDIDOR DE AMOR ❤️❤️*
-*El amor de ${text} por ti es de* *${Math.floor(Math.random() * 100)}%* *de un 100%*
-*Deberias pedirle que sea tu  novia/o ?*
+*❤️❤️ 𝙻𝙾𝚅𝙴 𝙼𝙴𝚃𝙴𝚁 ❤️❤️*
+*The love of ${text} for you is from* *${Math.floor(Math.random() * 100)}%* *of a 100%*
+*You should ask him to be your girlfriend ?*
 `.trim(), m, m.mentionedJid ? {
 contextInfo: {
 mentionedJid: m.mentionedJid
