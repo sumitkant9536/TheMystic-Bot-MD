@@ -11,46 +11,46 @@ astro = 'paper'
 }
 if (text == astro) {
 global.db.data.users[m.sender].exp += 500
-m.reply(`*🔰 Tie!*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*🎁 points +500 XP*`)
+m.reply(`*🔰 Tie!*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*🎁 Points +500 XP*`)
 } else if (text == 'paper') {
 if (astro == 'stone') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`*🥳 You win! 🎉*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*🎁 points +1000 XP*`)
+m.reply(`*🥳 You win! 🎉*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*🎁 Points +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`*☠️ You win! ❌*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*❌ points -300 XP*`)
+m.reply(`*☠️ You loss! ❌*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*❌ Points -300 XP*`)
 }
-} else if (text == 'tijera') {
-if (astro == 'papel') {
+} else if (text == 'scissor') {
+if (astro == 'paper') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Puntos +1000 XP*`)
+m.reply(`*🥳 You win! 🎉*\n\n*👉 🏻you: ${text}*\n*👉🏻 bot: ${astro}*\n*🎁 Points +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*❌ Puntos -300 XP*`)
+m.reply(`*☠️ You loss! ❌*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*❌ Points -300 XP*`)
 }
-} else if (text == 'tijera') {
-if (astro == 'papel') {
+} else if (text == 'scissor') {
+if (astro == 'paper') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Puntos +1000 XP*`)
+m.reply(`*🥳 You win! 🎉*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*🎁 Points +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*❌ Puntos -300 XP*`)
+m.reply(`*☠️ You loss! ❌*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*❌ Points -300 XP*`)
 }
-} else if (text == 'papel') {
-if (astro == 'piedra') {
+} else if (text == 'paper') {
+if (astro == 'stone') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Puntos +1000 XP*`)
+m.reply(`*🥳 You win! 🎉*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*🎁 Points +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*❌ Puntos -300 XP*`)
+m.reply(`*☠️ You loss! ❌*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*❌ Points -300 XP*`)
 }
-} else if (text == 'piedra') {
-if (astro == 'tijera') {
+} else if (text == 'stone') {
+if (astro == 'scissor') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Puntos +1000 XP*`)
+m.reply(`*🥳 You win! 🎉*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*🎁 Points +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*\n*❌ Puntos -300 XP*`)
+m.reply(`*☠️ You loss! ❌*\n\n*👉🏻 you: ${text}*\n*👉🏻 bot: ${astro}*\n*❌ Points -300 XP*`)
 }
 } else {
 throw INTROJUEGO
