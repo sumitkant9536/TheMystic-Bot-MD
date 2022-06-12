@@ -1,4 +1,4 @@
-const uploadImage = require('../lib/uploadImage')
+import uploadImage from '../lib/uploadImage.js'
 
 let handler = async (m, { conn, usedPrefix, command }) => {
   let q = m.quoted ? m.quoted : m
