@@ -1,7 +1,7 @@
 //by AsuKidal
 
-let fetch from 'node-fetch'
-let fs from 'fs'
+import fetch from 'node-fetch'
+import fs from 'fs'
 let handler = async(m, { conn, usedPrefix, text, command }) => {
     if (!text) throw `Please enter URL as text \n\nExample : ${usedPrefix + command} https://www.xvideos.com/video25381801/beautiful_sisters_have_been_tentacled`
     let res = await fetch(`https://api-xcoders.xyz/api/download/xvideos?url=${text}&apikey=xcoders`)
