@@ -8,6 +8,6 @@ m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻�
 }
 handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'del' + v + ' <text>')
 handler.tags = ['database']
-handler.command = /^eliminar(vn|msg|video|audio|img|sticker)$/
+handler.command = /^del(vn|msg|video|audio|img|sticker)$/
 handler.rowner = true
 export default handler
