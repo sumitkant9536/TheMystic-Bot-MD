@@ -1,4 +1,4 @@
-let fetch from 'node-fetch'
+import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
   let res = await fetch(`https://api.kaysa.xyz/api/${command}?apikey=KaysaS`)
   if (!res.ok) throw 'Error Website server down'
