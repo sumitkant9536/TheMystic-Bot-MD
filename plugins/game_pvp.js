@@ -11,7 +11,7 @@ let id = 'suit_' + new Date() * 1
 let caption = `*🎮 𝙶𝙰𝙼𝙴𝚂 - 𝙿𝚅𝙿 - 𝙶𝙰𝙼𝙴𝚂 🎮*
 
 *—◉ @${m.sender.split`@`[0]} 𝙳𝙸𝚂𝙰𝙵𝙸𝙰 𝙰 @${m.mentionedJid[0].split`@`[0]} 𝙸𝙽 𝙰 𝙿𝚅𝙿 𝙾𝙵 𝚂𝚃𝙾𝙽𝙴, 𝙿𝙰𝙿𝙴𝚁 𝙾𝚁 𝚂𝙲𝙸𝚂𝚂𝙾𝚁𝚂*
-`.trim()𝙳𝙸𝚂𝙰𝙵𝙸𝙰 𝙰
+`.trim()
 let footer = `◉ 𝚃𝚈𝙿𝙴 "ok" 𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝚃𝙷𝙴 𝙶𝙰𝙼𝙴`
 conn.suit[id] = {
 chat: await conn.sendButton(m.chat, caption, footer, null, [[`Ok`]], m, { contextInfo: { mentionedJid: conn.parseMention(caption) } }),
