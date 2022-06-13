@@ -5,21 +5,21 @@ switch (command) {
 case 'next':
 case 'leave': {
 let room = Object.values(this.anonymous).find(room => room.check(m.sender))
-if (!room) return this.sendButton(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾 𝙴𝚂𝚃𝙰𝚂 𝙴𝙽 𝚄𝙽 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾*\n\n*¿𝚀𝚄𝙸𝙴𝚁𝙴𝚂 𝙸𝙽𝙸𝙲𝙸𝙰𝚁 𝚄𝙽𝙾?*\n_𝙳𝙰 𝙲𝙻𝙸𝙲𝙺 𝙴𝙽 𝙴𝙻 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙱𝙾𝚃𝙾𝙽_', author, null, [['𝙸𝙽𝙸𝙲𝙸𝙰𝚁 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾', `.start`]], m)
-m.reply('*[ ✔ ] 𝚂𝙰𝙻𝙸𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾 𝙳𝙴𝙻 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾*')
+if (!room) return this.sendButton(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙽𝙾𝚃 𝙸𝙽 𝙰𝙽 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃*\n\n*𝙳𝙾 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝙾𝙽𝙴?*\n_𝙳𝙰 𝙲𝙻𝙸𝙲𝙺 𝙾𝙽 𝚃𝙷𝙴 𝙽𝙴𝚇𝚃 𝙱𝚄𝚃𝚃𝙾𝙽_', author, null, [['𝙸𝙽𝙸𝙲𝙸𝙰𝚁 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾', `.start`]], m)
+m.reply('*[ ✔ ] 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙴𝚇𝙸𝚃𝙴𝙳 𝚃𝙷𝙴 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃*')
 let other = room.other(m.sender) 
-if (other) await this.sendButton(other, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙾𝚃𝚁𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙰𝙷 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰𝙳𝙾 𝙴𝙻 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾*\n\n*¿𝚀𝚄𝙸𝙴𝚁𝙴𝚂 𝙸𝚁 𝙰 𝙾𝚃𝚁𝙾 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾?*\n_𝙳𝙰 𝙲𝙻𝙸𝙲𝙺 𝙴𝙽 𝙴𝙻 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙱𝙾𝚃𝙾𝙽_', author, null, [['𝙸𝙽𝙸𝙲𝙸𝙰𝚁 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾', `.start`]], m)
+if (other) await this.sendButton(other, '*[❗𝐈𝐍𝐅𝐎❗] 𝚃𝙷𝙴 𝙾𝚃𝙷𝙴𝚁 𝚄𝚂𝙴𝚁 𝙷𝙰𝚂 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙴𝙳 𝚃𝙷𝙴 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃*\n\n*¿𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙶𝙾 𝚃𝙾 𝙰𝙽𝙾𝚃𝙷𝙴𝚁 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃?*\n_𝙲𝙻𝙸𝙲𝙺 𝙾𝙽 𝚃𝙷𝙴 𝙵𝙾𝙻𝙻𝙾𝚆𝙸𝙽𝙶 𝙱𝚄𝚃𝚃𝙾𝙽_', author, null, [['𝚂𝚃𝙰𝚁𝚃 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃', `.start`]], m)
 delete this.anonymous[room.id]
 if (command === 'leave') break
 }
 case 'start': {
-if (Object.values(this.anonymous).find(room => room.check(m.sender))) return this.sendButton(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝚃𝙾𝙳𝙰𝚅𝙸𝙰 𝙴𝚂𝚃𝙰𝚂 𝙴𝙽 𝚄𝙽 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾 𝙾 𝙴𝚂𝙿𝙴𝚁𝙰𝙽𝙳𝙾 𝙰 𝚀𝚄𝙴 𝙾𝚃𝚁𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝚂𝙴 𝚄𝙽𝙰 𝙿𝙰𝚁𝙰 𝙸𝙽𝙸𝙲𝙸𝙰𝚁*\n\n*¿𝚀𝚄𝙸𝙴𝚁𝙴𝚂 𝚂𝙰𝙻𝙸𝚁 𝙳𝙴𝙻 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾?*\n_𝙳𝙰 𝙲𝙻𝙸𝙲𝙺 𝙴𝙽 𝙴𝙻 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙱𝙾𝚃𝙾𝙽_', author, null, [['𝚂𝙰𝙻𝙸𝚁 𝙳𝙴𝙻 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾', `.leave`]], m)
+if (Object.values(this.anonymous).find(room => room.check(m.sender))) return this.sendButton(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝚈𝙾𝚄 𝙰𝚁𝙴 𝚂𝚃𝙸𝙻𝙻 𝙸𝙽 𝙰𝙽 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃 𝙾𝚁 𝚆𝙰𝙸𝚃𝙸𝙽𝙶 𝙵𝙾𝚁 𝙰𝙽𝙾𝚃𝙷𝙴𝚁 𝚄𝚂𝙴𝚁 𝚃𝙾 𝙹𝙾𝙸𝙽 𝚃𝙾 𝚂𝚃𝙰𝚁𝚃*\n\n*𝙳𝙾 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙻𝙴𝙰𝚅𝙴 𝚃𝙷𝙴 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃?*\n_𝙲𝙻𝙸𝙲𝙺 𝙾𝙽 𝚃𝙷𝙴 𝙽𝙴𝚇𝚃 𝙱𝚄𝚃𝚃𝙾𝙽_', author, null, [['𝙴𝚇𝙸𝚃 𝚃𝙷𝙴 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃', `.leave`]], m)
 let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
 if (room) {
-await this.sendButton(room.a, '*[ ✔ ] 𝚄𝙽𝙰 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝚂𝙴 𝙰𝙷 𝚄𝙽𝙸𝙳𝙾 𝙰𝙻 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾, 𝙿𝚄𝙴𝙳𝙴𝙽 𝙸𝙽𝙸𝙲𝙸𝙰𝚁 𝙰 𝙲𝙷𝙰𝚃𝙴𝙰𝚁*', author, null, [['𝙸𝚁 𝙰 𝙾𝚃𝚁𝙾 𝙲𝙷𝙰𝚃', `.next`]], m)
+await this.sendButton(room.a, '*[ ✔ ] 𝙰 𝙿𝙴𝚁𝚂𝙾𝙽 𝙸𝚂 𝙹𝙾𝙸𝙽𝙴𝙳 𝚃𝙾 𝚃𝙷𝙴 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃, 𝚃𝙷𝙴𝚈 𝙲𝙰𝙽 𝚂𝚃𝙰𝚁𝚃 𝙲𝙷𝙰𝚃𝚃𝙸𝙽𝙶*', author, null, [['𝙸𝚁 𝙰 𝙾𝚃𝚁𝙾 𝙲𝙷𝙰𝚃', `.next`]], m)
 room.b = m.sender
 room.state = 'CHATTING'
-await this.sendButton(m.chat, '*[ ✔ ] 𝚄𝙽𝙰 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝚂𝙴 𝙰𝙷 𝚄𝙽𝙸𝙳𝙾 𝙰𝙻 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾, 𝙿𝚄𝙴𝙳𝙴𝙽 𝙸𝙽𝙸𝙲𝙸𝙰𝚁 𝙰 𝙲𝙷𝙰𝚃𝙴𝙰𝚁*', author, null, [['𝙸𝚁 𝙰 𝙾𝚃𝚁𝙾 𝙲𝙷𝙰𝚃', `.next`]], m)
+await this.sendButton(m.chat, '*[ ✔ ] 𝙰 𝙿𝙴𝚁𝚂𝙾𝙽 𝙸𝚂 𝙹𝙾𝙸𝙽𝙴𝙳 𝚃𝙾 𝚃𝙷𝙴 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃, 𝚃𝙷𝙴𝚈 𝙲𝙰𝙽 𝚂𝚃𝙰𝚁𝚃 𝙲𝙷𝙰𝚃𝚃𝙸𝙽𝙶*', author, null, [['𝙸𝚁 𝙰 𝙾𝚃𝚁𝙾 𝙲𝙷𝙰𝚃', `.next`]], m)
 } else {
 let id = + new Date
 this.anonymous[id] = {
@@ -34,7 +34,7 @@ other: function (who = '') {
 return who === this.a ? this.b : who === this.b ? this.a : ''
 },
 }
-await this.sendButton(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚂𝙿𝙴𝚁𝙰𝙽𝙳𝙾 𝙰 𝙾𝚃𝚁𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝙰𝚁𝙰 𝙸𝙽𝙸𝙲𝙸𝙰𝚁 𝙴𝙻 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾*\n\n*¿𝚀𝚄𝙸𝙴𝚁𝙴𝚂 𝚂𝙰𝙻𝙸𝚁 𝙳𝙴𝙻 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾?*\n_𝙳𝙰 𝙲𝙻𝙸𝙲𝙺 𝙴𝙽 𝙴𝙻 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙱𝙾𝚃𝙾𝙽_', author, null, [['𝚂𝙰𝙻𝙸𝚁 𝙳𝙴𝙻 𝙲𝙷𝙰𝚃 𝙰𝙽𝙾𝙽𝙸𝙼𝙾', `.leave`]], m)
+await this.sendButton(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝚆𝙰𝙸𝚃𝙸𝙽𝙶 𝙵𝙾𝚁 𝙰𝙽𝙾𝚃𝙷𝙴𝚁 𝚄𝚂𝙴𝚁 𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝚃𝙷𝙴 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃*\n\n*𝙳𝙾 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙴𝚇𝙸𝚃 𝚃𝙷𝙴 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃?*\n_𝙲𝙻𝙸𝙲𝙺 𝙾𝙽 𝚃𝙷𝙴 𝙽𝙴𝚇𝚃 𝙱𝚄𝚃𝚃𝙾𝙽_', author, null, [['𝙴𝚇𝙸𝚃 𝚃𝙷𝙴 𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃', `.leave`]], m)
 }
 break
 }}}
