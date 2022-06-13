@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
 if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝚃𝙷𝙴 +𝟷𝟾 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝙰𝚁𝙴 𝙳𝙸𝚂𝙰𝙱𝙻𝙴𝙳 𝙸𝙽 𝚃𝙷𝙸𝚂 𝙶𝚁𝙾𝚄𝙿, 𝙸𝙵 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙰𝙳𝙼𝙸𝙽 𝙰𝙽𝙳 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙴𝙽𝙰𝙱𝙻𝙴 𝚃𝙷𝙴𝙼 𝚄𝚂𝙴 𝚃𝙷𝙴 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 #𝚎𝚗𝚊𝚋𝚕𝚎 𝚖𝚘𝚍ohorny*'   
 let res = pickRandom(asupan)
-conn.sendHydrated(m.chat, null, null, res, null, null, null, null, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
+conn.sendHydrated(m.chat, null, null, res, null, null, null, null, [['🔄 𝙽𝙴𝚇𝚃 🔄', `/${command}`]], m)}
 handler.help = ['videoxxx']
 handler.tags = ['random']
 handler.command = /^videoxxx|vídeoxxx$/i
