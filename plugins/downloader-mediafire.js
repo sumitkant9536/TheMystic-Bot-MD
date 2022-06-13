@@ -1,7 +1,7 @@
 import fs from 'fs'
 import { mediafiredl } from '@bochilteam/scraper'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝚅𝙰𝙻𝙸𝙳𝙾 𝙳𝙴 𝙼𝙴𝙳𝙸𝙰𝙵𝙸𝚁𝙴, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} https://www.mediafire.com/file/pbabuzyc7i8ord5/TheMystic-Bot-MD-master_%25285%2529.zip/file*`
+if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙽𝚃𝙴𝚁 𝙰 𝚅𝙰𝙻𝙸𝙳 𝙼𝙴𝙳𝙸𝙰𝙵𝙸𝚁𝙴 𝙻𝙸𝙽𝙺, 𝙴𝚇𝙰𝙼𝙿𝙻𝙴: ${usedPrefix + command} https://www.mediafire.com/file/pbabuzyc7i8ord5/TheMystic-Bot-MD-master_%25285%2529.zip/file*`
 try {
 let res = await mediafiredl(args[0])
 let { url, url2, filename, ext, aploud, filesize, filesizeH } = res
@@ -10,18 +10,18 @@ let caption = `
 *𝙿𝙴𝚂𝙾:* ${filesizeH}
 *𝚃𝙸𝙿𝙾:* ${ext}
 
-*⏳ 𝙴𝚂𝙿𝙴𝚁𝙴 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾. . . .* 
-*_- 𝙰𝚁𝙲𝙷𝙸𝚅𝙾𝚂 𝙼𝙰𝚈𝙾𝚁𝙴𝚂 𝙰 𝟷00 𝙼𝙱 𝙿𝚄𝙴𝙳𝙴 𝚀𝚄𝙴 𝙽𝙾 𝚂𝙴𝙰𝙽 𝙴𝙽𝚅𝙸𝙰𝙳𝙾𝚂_* 
+*⏳ 𝚆𝙰𝙸𝚃 𝙾𝙽 𝚆𝙷𝙰𝚃 𝚈𝙾𝚄 𝚂𝙴𝙽𝙳 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴. . . .* 
+*_- 𝙵𝙸𝙻𝙴𝚂 𝙻𝙰𝚁𝙶𝙴𝚁 𝚃𝙷𝙰𝙽 𝟷00 𝙼𝙱 𝙼𝙰𝚈 𝙽𝙾𝚃 𝙱𝙴 𝚂𝙴𝙽𝚃_* 
 `.trim()
 conn.reply(m.chat, caption, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙳𝙴 𝙼𝙴𝙳𝙸𝙰𝙵𝙸𝚁𝙴',
+title: '𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙵𝚁𝙾𝙼 𝙼𝙴𝙳𝙸𝙰𝙵𝙸𝚁𝙴',
 body: 'ʙʏ ᴛʜᴇ ᴍʏsᴛɪᴄ ﹣ ʙᴏᴛ',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}})
 conn.sendFile(m.chat, url, filename, '', m, null, { mimetype: ext, asDocument: true })
 } catch (e) {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*\n\n*- 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝚂𝙴𝙰 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝙰:*\n*◉ https://www.mediafire.com/file/pbabuzyc7i8ord5/TheMystic-Bot-MD-master_%25285%2529.zip/file*')
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽*\n\n*- 𝚅𝙴𝚁𝙸𝙵𝚈 𝚃𝙷𝙰𝚃 𝚃𝙷𝙴 𝙻𝙸𝙽𝙺 𝙸𝚂 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝚃𝙾:*\n*◉ https://www.mediafire.com/file/pbabuzyc7i8ord5/TheMystic-Bot-MD-master_%25285%2529.zip/file*')
 console.log(e)
 }}
 handler.help = ['mediafire'].map(v => v + ' <url>')
