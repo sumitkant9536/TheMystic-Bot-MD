@@ -16,7 +16,7 @@ let j = ps.getRandom()
 
 if (command == 'topgays') {
 let vn = './media/gay2.mp3'
-let top = `*🌈TOP 10 GAYS/LESBIANAS DEL GRUPO🌈*
+let top = `*🌈TOP 10 GAYS/LESBIANAS OF GROUP🌈*
     
 *_1.- ${user(a)}_*
 *_2.- ${user(b)}_*
@@ -36,9 +36,9 @@ conn.sendFile(m.chat, vn, 'error.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true })}
     
-if (command == 'topotakus') {
+if (command == 'topnoobs') {
 let vn = './media/otaku.mp3'
-let top = `*🌸 TOP 10 OTAKUS DEL GRUPO 🌸*
+let top = `*🌸 TOP 10 NOOB OF GROUP 🌸*
     
 *_1.- ${user(a)}_*
 *_2.- ${user(b)}_*
@@ -59,7 +59,7 @@ type: 'audioMessage',
 ptt: true 
 })}    
 }
-handler.help = handler.command = ['topgays','topotakus']
+handler.help = handler.command = ['topgays','topnoobs']
 handler.tags = ['games']
 handler.group = true
 export default handler  
