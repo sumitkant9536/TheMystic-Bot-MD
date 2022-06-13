@@ -26,9 +26,9 @@ mentionedJid: [room.p, room.p2]
 }
 })
     
-if (!room.pilih) this.sendHydrated(room.p, '*𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙻𝙴𝙲𝚃 𝙾𝙽𝙴 𝙾𝙵 𝚃𝙷𝙴 𝙵𝙾𝙻𝙻𝙾𝚆𝙸𝙽𝙶 𝙾𝙿𝚃𝙸𝙾𝙽𝚂*', `𝚆𝙸𝙽𝙽𝙴𝚁 +${room.poin} 𝚇𝙿\n𝙻𝙾𝚂𝙴𝚁 -${room.poin_lose} 𝚇𝙿\n𝚃𝙸𝙴 +${room.poin_bot} 𝚇𝙿`, null, null, null, null, null, [['𝚂𝚃𝙾𝙽𝙴 🗿', 'Piedra'], ['𝙿𝙰𝙿𝙴𝚁 📄', 'Papel'], ['𝚂𝙲𝙸𝚂𝚂𝙾𝚁 ✂️', 'Tijera']], m)
+if (!room.pilih) this.sendHydrated(room.p, '*𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙻𝙴𝙲𝚃 𝙾𝙽𝙴 𝙾𝙵 𝚃𝙷𝙴 𝙵𝙾𝙻𝙻𝙾𝚆𝙸𝙽𝙶 𝙾𝙿𝚃𝙸𝙾𝙽𝚂*', `𝚆𝙸𝙽𝙽𝙴𝚁 +${room.poin} 𝚇𝙿\n𝙻𝙾𝚂𝙴𝚁 -${room.poin_lose} 𝚇𝙿\n𝚃𝙸𝙴 +${room.poin_bot} 𝚇𝙿`, null, null, null, null, null, [['𝚂𝚃𝙾𝙽𝙴 🗿', 'Stone'], ['𝙿𝙰𝙿𝙴𝚁 📄', 'Paper'], ['𝚂𝙲𝙸𝚂𝚂𝙾𝚁 ✂️', 'Scissor']], m)
     
-if (!room.pilih2) this.sendHydrated(room.p2, '*𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙻𝙴𝙲𝚃 𝙾𝙽𝙴 𝙾𝙵 𝚃𝙷𝙴 𝙵𝙾𝙻𝙻𝙾𝚆𝙸𝙽𝙶 𝙾𝙿𝚃𝙸𝙾𝙽𝚂*', `𝚆𝙸𝙽𝙽𝙴𝚁 +${room.poin} 𝚇𝙿\n𝙻𝙾𝚂𝙴𝚁 -${room.poin_lose} 𝚇𝙿\n𝚃𝙸𝙴 +${room.poin_bot} 𝚇𝙿`, null, null, null, null, null, [['𝚂𝚃𝙾𝙽𝙴 🗿', 'Piedra'], ['𝙿𝙰𝙿𝙴𝚁 📄', 'Papel'], ['𝚂𝙲𝙸𝚂𝚂𝙾𝚁 ✂️', 'Tijera']], m)
+if (!room.pilih2) this.sendHydrated(room.p2, '*𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙻𝙴𝙲𝚃 𝙾𝙽𝙴 𝙾𝙵 𝚃𝙷𝙴 𝙵𝙾𝙻𝙻𝙾𝚆𝙸𝙽𝙶 𝙾𝙿𝚃𝙸𝙾𝙽𝚂*', `𝚆𝙸𝙽𝙽𝙴𝚁 +${room.poin} 𝚇𝙿\n𝙻𝙾𝚂𝙴𝚁 -${room.poin_lose} 𝚇𝙿\n𝚃𝙸𝙴 +${room.poin_bot} 𝚇𝙿`, null, null, null, null, null, [['𝚂𝚃𝙾𝙽𝙴 🗿', 'Stone'], ['𝙿𝙰𝙿𝙴𝚁 📄', 'Paper'], ['𝚂𝙲𝙸𝚂𝚂𝙾𝚁 ✂️', 'Scissor']], m)
                                     
 room.waktu_milih = setTimeout(() => {
 if (!room.pilih && !room.pilih2) this.sendButton(m.chat, `*[❗] 𝙽𝙾 𝙿𝙻𝙰𝚈𝙴𝚁 𝚃𝙾𝙾𝙺 𝚃𝙷𝙴 𝙸𝙽𝙸𝚃𝙸𝙰𝚃𝙸𝚅𝙴 𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝚃𝙷𝙴 𝙶𝙰𝙼𝙴, 𝚃𝙷𝙴 𝙿𝚅𝙿 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝙲𝙰𝙽𝙲𝙴𝙻𝙴𝙳.*`, wm, null, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)
@@ -48,7 +48,7 @@ let jwb2 = m.sender == room.p2
 let g = /gunting/i
 let b = /batu/i
 let k = /kertas/i
-let reg = /^(tijera|piedra|papel)/i
+let reg = /^(scissor|stone|paper)/i
 if (jwb && reg.test(m.text) && !room.pilih && !m.isGroup) {
 room.pilih = reg.exec(m.text.toLowerCase())[0]
 room.text = m.text
