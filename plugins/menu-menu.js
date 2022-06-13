@@ -110,55 +110,55 @@ let str = `
 ° 🎖️ ${usedPrefix}*topnoobs*
 ° 🎖️ ${usedPrefix}*formingpairs*
 ° 🎖️ ${usedPrefix}*truth*
-° 🎖️ ${usedPrefix}*challange*\
+° 🎖️ ${usedPrefix}*challange*
 ° 🎖️ ${usedPrefix}*quotes*
 
 *<𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ/>*
 
-° ඬ⃟☑️ _${usedPrefix}enable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}enable *detect*_
-° ඬ⃟☑️ _${usedPrefix}disable *detect*_
-° ඬ⃟☑️ _${usedPrefix}enable *audios*_
-° ඬ⃟☑️ _${usedPrefix}disable *audios*_
-° ඬ⃟☑️ _${usedPrefix}enable *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}disable *autosticker*_
+° ☑️ ${usedPrefix}*enable* welcome
+° ☑️ ${usedPrefix}*disable* welcome
+° ☑️ ${usedPrefix}*enable* modohorny
+° ☑️ ${usedPrefix}*disable* modohorny
+° ☑️ ${usedPrefix}*enable* antilink
+° ☑️ ${usedPrefix}*disable* antilink
+° ☑️ ${usedPrefix}*enable* antilink2
+° ☑️ ${usedPrefix}*disable* antilink2
+° ☑️ ${usedPrefix}*enable* detect
+° ☑️ ${usedPrefix}*disable* detect
+° ☑️ ${usedPrefix}*enable* audios
+° ☑️ ${usedPrefix}*disable* audios
+° ☑️ ${usedPrefix}*enable* autosticker
+° ☑️ ${usedPrefix}*disable* autosticker
 
 *<ℝ𝔼ℙ𝕆ℝ𝕋𝔼𝕊 𝔻𝔼 𝔽𝔸𝕃𝕃𝕆𝕊/>*
 
-° ඬ⃟🔰 _${usedPrefix}reporte *<texto>*_
+° 🔰 ${usedPrefix}*report* <text>
 
 *<𝔻𝔼𝕊ℂ𝔸ℝ𝔾𝔸𝕊/>*
 
-° ඬ⃟📥 _${usedPrefix}facebook *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}mediafire *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play.1 *<texto / enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play.2 *<texto / enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play *<texto>*_
-° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
-° ඬ⃟📥 _${usedPrefix}spotify *<texto>*_
-° ඬ⃟📥 _${usedPrefix}imagen *<texto>*_
-° ඬ⃟📥 _${usedPrefix}pinteret *<texto>*_
-° ඬ⃟📥 _${usedPrefix}wallpaper *<texto>*_
-° ඬ⃟📥 _${usedPrefix}wallpaper2 *<texto>*_
-° ඬ⃟📥 _${usedPrefix}pptiktok *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}igstalk *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}igstory *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
+📥 ${usedPrefix}*facebook* <link / url>
+📥 ${usedPrefix}*instagram* <link / url>
+📥 ${usedPrefix}*mediafire* <link / url>
+📥 ${usedPrefix}*instagram* <link / url>
+📥 ${usedPrefix}*gitclone* <link / url>
+📥 ${usedPrefix}*tiktok* <link / url>
+📥 ${usedPrefix}*ytmp3* <link / url>
+📥 ${usedPrefix}*ytmp4* <link / url>
+📥 ${usedPrefix}*ytmp3doc* <link / url>
+📥 ${usedPrefix}*ytmp4doc* <link / url>
+📥 ${usedPrefix}*play.1* <text / link / url>
+📥 ${usedPrefix}*play.2* <text / link / url>
+📥 ${usedPrefix}*play* <text>
+📥 ${usedPrefix}*playdoc* <text>
+📥 ${usedPrefix}*spotify* <text>
+📥 ${usedPrefix}*gimage* <text>
+📥 ${usedPrefix}*pinteret* <text>
+📥 ${usedPrefix}*wallpaper* <text>
+📥 ${usedPrefix}*wallpaper2* <text>
+📥 ${usedPrefix}*pptiktok* <username>
+📥 ${usedPrefix}*igstalk* <username>
+📥 ${usedPrefix}*igstory* <username>
+📥 ${usedPrefix}*tiktokstalk* <username>
 
 *<𝔾ℝ𝕌ℙ𝕆𝕊/>* 
 
