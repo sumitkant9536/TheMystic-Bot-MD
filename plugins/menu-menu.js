@@ -80,36 +80,38 @@ let str = `
 °  💟 ${usedPrefix}*script*
 °  💟 *Bot* (use without prefix)
 
-*<𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆/>*
+*<𝐉𝐎𝐈𝐍 𝐀 𝐁𝐎𝐓 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏/>*
 
-° ඬ⃟👽 _${usedPrefix}join *<enlace / link / url>*_
+° 👽 _${usedPrefix}*join* <enlace / link / url>
 
-*<𝕁𝕌𝔼𝔾𝕆𝕊/>*
+*<𝐆𝐀𝐌𝐄𝐒/>
 
-° ඬ⃟🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-° ඬ⃟🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-° ඬ⃟🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}puto *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}puta *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}manco *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}manca *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}rata *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}love *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}doxear *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}pregunta *<texto>*_
-° ඬ⃟🎖️ _${usedPrefix}slot *<apuesta>*_
-° ඬ⃟🎖️ _${usedPrefix}pvp *<@tag>*_
-° ඬ⃟🎖️ _${usedPrefix}simi *<texto>*_
-° ඬ⃟🎖️ _${usedPrefix}topgays_
-° ඬ⃟🎖️ _${usedPrefix}topotakus_
-° ඬ⃟🎖️ _${usedPrefix}formarpareja_
-° ඬ⃟🎖️ _${usedPrefix}verdad_
-° ඬ⃟🎖️ _${usedPrefix}reto_
+° 🎖️ ${usedPrefix}*mates* <noob / easy / medium / hard / extreme /impossible /impossible2>
+° 🎖️ ${usedPrefix}*ppt* <paper / scissors / stone>
+° 🎖️ ${usedPrefix}*prostituto* <name / @tag>
+° 🎖️ ${usedPrefix}*prostituta* <name / @tag>
+° 🎖️ ${usedPrefix}*gay2* <name / @tag>
+° 🎖️ ${usedPrefix}*lesbiana* <name / @tag>
+° 🎖️ ${usedPrefix}*pajero* <name / @tag>
+° 🎖️ ${usedPrefix}*pajera* <name / @tag>
+° 🎖️ ${usedPrefix}*fucking* <name / @tag>
+° 🎖️ ${usedPrefix}*bitch* <name / @tag>
+° 🎖️ ${usedPrefix}*manco* <name / @tag>
+° 🎖️ ${usedPrefix}*manca* <name / @tag>
+° 🎖️ ${usedPrefix}*rata* <name / @tag>
+° 🎖️ ${usedPrefix}*love* <name / @tag>
+° 🎖️ ${usedPrefix}*doxear* <name / @tag>
+° 🎖️ ${usedPrefix}*jj* <jjfreefire/jjpubg/jjml/jjanime>
+° 🎖️ ${usedPrefix}*ques* <text>
+° 🎖️ ${usedPrefix}*slot* <bet>
+° 🎖️ ${usedPrefix}*pvp* <@tag>
+° 🎖️ ${usedPrefix}*simi* <texto>
+° 🎖️ ${usedPrefix}*topgays*
+° 🎖️ ${usedPrefix}*topnoobs*
+° 🎖️ ${usedPrefix}*formingpairs*
+° 🎖️ ${usedPrefix}*truth*
+° 🎖️ ${usedPrefix}*challange*\
+° 🎖️ ${usedPrefix}*quotes*
 
 *<𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ/>*
 
@@ -196,55 +198,55 @@ let str = `
 ° ඬ⃟🖍️ _${usedPrefix}pixelar_
 ° ඬ⃟🖍️ _${usedPrefix}blur_
 
-*<ℝ𝔸ℕ𝔻𝕆𝕄/>*
+*<𝐑𝐀𝐍𝐃𝐎𝐌/>*
 
-° ඬ⃟👾 _${usedPrefix}cristianoronaldo_
-° ඬ⃟👾 _${usedPrefix}messi_
-° ඬ⃟👾 _${usedPrefix}meme_
-° ඬ⃟👾 _${usedPrefix}itzy_
-° ඬ⃟👾 _${usedPrefix}blackpink_
-° ඬ⃟👾 _${usedPrefix}kpop *<blackpink / exo / bts>*_
-° ඬ⃟👾 _${usedPrefix}lolivid_
-° ඬ⃟👾 _${usedPrefix}loli_
-° ඬ⃟👾 _${usedPrefix}navidad_
-° ඬ⃟👾 _${usedPrefix}ppcouple_
-° ඬ⃟👾 _${usedPrefix}neko_
-° ඬ⃟👾 _${usedPrefix}waifu_
-° ඬ⃟👾 _${usedPrefix}akira_
-° ඬ⃟👾 _${usedPrefix}akiyama_
-° ඬ⃟👾 _${usedPrefix}anna_
-° ඬ⃟👾 _${usedPrefix}asuna_
-° ඬ⃟👾 _${usedPrefix}ayuzawa_
-° ඬ⃟👾 _${usedPrefix}boruto_
-° ඬ⃟👾 _${usedPrefix}chiho_
-° ඬ⃟👾 _${usedPrefix}chitoge_
-° ඬ⃟👾 _${usedPrefix}deidara_
-° ඬ⃟👾 _${usedPrefix}erza_
-° ඬ⃟👾 _${usedPrefix}elaina_
-° ඬ⃟👾 _${usedPrefix}eba_
-° ඬ⃟👾 _${usedPrefix}emilia_
-° ඬ⃟👾 _${usedPrefix}hestia_
-° ඬ⃟👾 _${usedPrefix}hinata_
-° ඬ⃟👾 _${usedPrefix}inori_
-° ඬ⃟👾 _${usedPrefix}isuzu_
-° ඬ⃟👾 _${usedPrefix}itachi_
-° ඬ⃟👾 _${usedPrefix}itori_
-° ඬ⃟👾 _${usedPrefix}kaga_
-° ඬ⃟👾 _${usedPrefix}kagura_
-° ඬ⃟👾 _${usedPrefix}kaori_
-° ඬ⃟👾 _${usedPrefix}keneki_
-° ඬ⃟👾 _${usedPrefix}kotori_
-° ඬ⃟👾 _${usedPrefix}kurumi_
-° ඬ⃟👾 _${usedPrefix}madara_
-° ඬ⃟👾 _${usedPrefix}mikasa_
-° ඬ⃟👾 _${usedPrefix}miku_
-° ඬ⃟👾 _${usedPrefix}minato_
-° ඬ⃟👾 _${usedPrefix}naruto_
-° ඬ⃟👾 _${usedPrefix}nezuko_
-° ඬ⃟👾 _${usedPrefix}sagiri_
-° ඬ⃟👾 _${usedPrefix}sasuke_
-° ඬ⃟👾 _${usedPrefix}sakura_
-° ඬ⃟👾 _${usedPrefix}cosplay_
+°👾 ${usedPrefix}*cristianoronaldo*
+°👾 ${usedPrefix}*messi*
+°👾 ${usedPrefix}*meme*
+°👾 ${usedPrefix}*itzy*
+°👾 ${usedPrefix}*blackpink*
+°👾 ${usedPrefix}*kpop* <blackpink / exo / bts>
+°👾 ${usedPrefix}*lolivid*
+°👾 ${usedPrefix}*loli*
+°👾 ${usedPrefix}*navidad*
+°👾 ${usedPrefix}*ppcouple*
+°👾 ${usedPrefix}*neko*
+°👾 ${usedPrefix}*waifu*
+°👾 ${usedPrefix}*akira*
+°👾 ${usedPrefix}*akiyama*
+°👾 ${usedPrefix}*anna*
+°👾 ${usedPrefix}*asuna*
+°👾 ${usedPrefix}*ayuzawa*
+°👾 ${usedPrefix}*boruto*
+°👾 ${usedPrefix}*chiho*
+°👾 ${usedPrefix}*chitoge*
+°👾 ${usedPrefix}*deidara*
+°👾 ${usedPrefix}*erza*
+°👾 ${usedPrefix}*elaina*
+°👾 ${usedPrefix}*eba*
+°👾 ${usedPrefix}*emilia*
+°👾 ${usedPrefix}*hestia*
+°👾 ${usedPrefix}*hinata*
+°👾 ${usedPrefix}*inori*
+°👾 ${usedPrefix}*isuzu*
+°👾 ${usedPrefix}*itachi*
+°👾 ${usedPrefix}*itori*
+°👾 ${usedPrefix}*kaga*
+°👾 ${usedPrefix}*kagura*
+°👾 ${usedPrefix}*kaori*
+°👾 ${usedPrefix}*keneki*
+°👾 ${usedPrefix}*kotori*
+°👾 ${usedPrefix}*kurumi*
+°👾 ${usedPrefix}*madara*
+°👾 ${usedPrefix}*mikasa*
+°👾 ${usedPrefix}*miku*
+°👾 ${usedPrefix}*minato*
+°👾 ${usedPrefix}*naruto*
+°👾 ${usedPrefix}*nezuko*
+°👾 ${usedPrefix}*sagiri*
+°👾 ${usedPrefix}*sasuke*
+°👾 ${usedPrefix}*sakura*
+°👾 ${usedPrefix}*cosplay*
 
 *<ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠/>*
 
@@ -427,8 +429,8 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
-['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/sumitkant9536/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+['📮 𝙳𝙾𝙽𝙰𝚃𝙴 📮', '/donasi'],
 ['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'],
 ['🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾', '/infobot']
 ], m,)
@@ -436,7 +438,7 @@ conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/BrunoSobrino/TheMysti
 //type: 'audioMessage', 
 //ptt: true})
 } catch (e) {
-conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m)
+conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝚃𝙷𝙴 𝙼𝙴𝙽𝚄 𝙷𝙰𝚂 𝙰𝙽 𝙴𝚁𝚁𝙾𝚁 𝙰𝙽𝙳 𝙸𝚃 𝚆𝙰𝚂 𝙽𝙾𝚃 𝙿𝙾𝚂𝚂𝙸𝙱𝙻𝙴 𝚃𝙾 𝚂𝙴𝙽𝙳 𝙸𝚃, 𝚁𝙴𝙿𝙾𝚁𝚃 𝙸𝚃 𝚃𝙾 𝚃𝙷𝙴 𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁*', m)
 throw e
 }}
 handler.help = ['menu', 'help']
