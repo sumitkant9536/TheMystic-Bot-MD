@@ -12,7 +12,7 @@ let donar =`
 *┃ 𝙸𝙽 𝙲𝙰𝚂𝙴 𝚈𝙾𝚄 𝙻𝙸𝙺𝙴 𝚃𝙾 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 :𝟹*
 *┃*
 *┃
-*┃ ➤ 𝙿𝙰𝚈𝚃𝙼: https://www.paypal.me/TheShadowBrokers133*
+*┃ ➤ 𝙿𝙰𝚈𝚃𝙼: https://p.paytm.me/xCTH/egespbk4*
 *┃*
 *┃ 👉🏻 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙼𝙴 𝚈𝙴𝚂* 
 *┃ 𝚈𝙾𝚄 𝙽𝙴𝙴𝙳 𝙼𝙾𝚁𝙴*
@@ -21,7 +21,7 @@ let donar =`
 *┃ wa.me/919758523260*
 *┗ ┅ ━━━━━━━━━ ┅ ━*
 `.trim()
-conn.sendHydrated(m.chat, donar, wm, null, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝚃𝙼', null, null, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)}
+conn.sendHydrated(m.chat, donar, wm, null, 'https://p.paytm.me/xCTH/egespbk4', '𝙿𝙰𝚈𝚃𝙼', null, null, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)}
 handler.help = ['donate']
 handler.tags = ['info']
 handler.command = /^dona(te|si)|donar|apoyar$/i
