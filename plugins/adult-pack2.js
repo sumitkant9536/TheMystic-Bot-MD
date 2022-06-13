@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
 if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*[ ⚠️ ] the +18 commands are disabled in this group if you are an administrator of this group and want to enable them type #enable nsfw*'
 let url = packgirl[Math.floor(Math.random() * packgirl.length)]
-conn.sendButton(m.chat, `_🥵 Pack 2 🥵_`, author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)
+conn.sendButton(m.chat, `_🥵 Pack 2 🥵_`, author, url, [['🔄 𝙽𝙴𝚇𝚃 🔄', `/${command}`]], m)
 }
 handler.help = ['pack2']
 handler.tags = ['internet']
