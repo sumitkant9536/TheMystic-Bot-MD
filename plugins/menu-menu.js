@@ -71,14 +71,14 @@ let str = `
 
 *<𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍/>*
 
-°  💟 ${usedPrefix}linkgc
-°  💟 ${usedPrefix}status
-°  💟 ${usedPrefix}infobot
-°  💟 ${usedPrefix}donate
-°  💟 ${usedPrefix}grouplist
-°  💟 ${usedPrefix}owner
-°  💟 ${usedPrefix}script
-°  💟 Bot (use without prefix)
+°  💟 ${usedPrefix}*linkgc*
+°  💟 ${usedPrefix}*status*
+°  💟 ${usedPrefix}*infobot*
+°  💟 ${usedPrefix}*donate*
+°  💟 ${usedPrefix}*grouplist*
+°  💟 ${usedPrefix}*owner*
+°  💟 ${usedPrefix}*script*
+°  💟 *Bot* (use without prefix)
 
 *<𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆/>*
 
