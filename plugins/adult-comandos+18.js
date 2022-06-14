@@ -115,7 +115,7 @@ let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝙽𝙴𝚇𝚃 🔄', `/${command}`]], m)}
 }  
-handler.help = ['nsfwloli', 'nsfwfoot', 'nsfwass', 'nsfwbdsm', 'nsfwcum', 'nsfwero', 'nsfwfemdom', 'nsfwfoot', 'nsfwglss', 'nsfworgy', 'feet', 'yuri', 'yuri2', 'yaoi', 'yaoi2', 'panties', 'tits', 'booty', 'ecchi', 'furro', 'hentai', 'trap', 'imagenlesbians', 'penis', 'porno', 'porno2', 'randomxxx', 'pechos']
+handler.help = ['nsfwloli', 'nsfwfoot', 'nsfwass', 'nsfwbdsm', 'nsfwcum', 'nsfwero', 'nsfwfemdom', 'nsfwfoot', 'nsfwglss', 'nsfworgy', 'feet', 'yuri', 'yuri2', 'yaoi', 'yaoi2', 'panties', 'tits', 'booty', 'ecchi', 'furro', 'hentai', 'trap', 'imagenlesbians', 'penis', 'porno', 'porno2', 'randomxxx', 'breasts']
 handler.command = ['nsfwloli', 'nsfwfoot', 'nsfwass', 'nsfwbdsm', 'nsfwcum', 'nsfwero', 'nsfwfemdom', 'nsfwfoot', 'nsfwglss', 'nsfworgy', 'feet', 'yuri', 'yuri2', 'yaoi', 'yaoi2', 'panties', 'tits', 'booty', 'ecchi', 'furro', 'hentai', 'trap', 'imagenlesbians', 'penis', 'porno', 'porno2', 'randomxxx', 'pechos']
 handler.tags = ['nsfw']
 export default  handler
